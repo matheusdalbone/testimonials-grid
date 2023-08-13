@@ -70,13 +70,9 @@ main h3 {
   box-shadow: 60px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-#q-mark {
+#quote {
   position: absolute;
-  top: -76px;
-  right: 20px;
-  font-size: 400px;
-  color: hsl(263, 79%, 70%);
-  font-family: arial;
+  right: 72px;
 }
 
 .name-div {
