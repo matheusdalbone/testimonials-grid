@@ -1,0 +1,175 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: hsl(210, 46%, 95%);
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main h3 {
+  margin: 0px;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid div {
+  display: flex;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+#comment-1 {
+  height: 250px;
+  width: 500px;
+  background-color:hsl(263, 55%, 52%);
+}
+
+#comment-2 {
+  height: 250px;
+  width: 230px;
+  background-color: hsl(217, 19%, 35%);
+}
+
+#comment-3 {
+  height: 525px;
+  width: 230px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#comment-4 {
+  height: 250px;
+  width: 230px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+#comment-5 {
+  height: 250px;
+  width: 500px;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.comments {
+  position: relative;
+  border-radius: 8px;
+}
+
+#comment-1, #comment-2, #comment-4, #comment-5 {
+  box-shadow: 60px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#q-mark {
+  position: absolute;
+  top: -76px;
+  right: 20px;
+  font-size: 400px;
+  color: hsl(263, 79%, 70%);
+  font-family: arial;
+}
+
+.name-div {
+  position: absolute;
+  left: 75px;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 13px;
+  margin-bottom: 1px;
+  color: hsl(0, 11%, 83%);
+}
+
+.verified {
+  font-size: 11px;
+  color: hsl(0, 11%, 83%);
+  opacity: 54%;
+}
+
+.pfp {
+  position: absolute;
+  top: 24px;
+  left: 27px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+#comment-1 .pfp {
+  border: 3px solid hsl(263, 81%, 71%);
+}
+
+#comment-5 .pfp {
+  border: 3px solid hsl(263, 81%, 71%);
+}
+
+.mid-div {
+  position: absolute;
+  display: flex;
+  top: 50px;
+  left: 27px;
+}
+
+.article {
+  font-size: 19px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500
+}
+
+#comment-1 .avaliation {
+  width: 434px;
+}
+
+#comment-2 .avaliation {
+  width: 180px;
+  color: hsl(0, 0%, 100%);
+  opacity: 50%;
+}
+
+#comment-4 .verified, #comment-3 .verified {
+  width: 180px;
+  color:  hsl(219, 29%, 14%);
+  opacity: 40%;
+}
+
+#comment-4 .article, #comment-4 .name, #comment-3 .article, #comment-3 .name {
+  width: 180px;
+  color:  hsl(219, 29%, 14%);
+  opacity: 79%;
+}
+
+#comment-4 .avaliation, #comment-3 .avaliation {
+  width: 180px;
+  color:  hsl(219, 29%, 14%);
+  opacity: 50%;
+}
+
+#comment-5 .avaliation {
+  width: 434px;
+  color: hsl(0, 0%, 100%);
+  opacity: 52%;
+}
+
+.avaliation {
+  position: absolute;
+  top: 132px;
+  left: 27px;
+  font-size: 12px;
+  color: hsl(0, 0%, 100%);
+  opacity: 42%;
+  line-height: 17px;
+  font-weight: 500;
+}
